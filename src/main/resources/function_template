@@ -1,0 +1,26 @@
+package alex.z.com.github.alexzelentsov.utils.functions;
+
+
+/**
+ * Represents a function that accepts %N% arguments and produces a result.
+ *
+ * <p>This is a <a href="package-summary.html">functional interface</a>
+ * whose functional method is {@link #apply(%Objects%)}.
+ *
+%@params%
+ * @param <R> the type of the result of the function
+ *
+ *
+ * Created by alexander.zelentsov on 24.07.2017.
+ */
+@FunctionalInterface
+public interface Function%N%<%T%, R> {
+
+        /**
+         * Applies this function to the given arguments.
+         *
+%@param args%
+         * @return the function result
+         */
+        R apply(%T args%);
+}

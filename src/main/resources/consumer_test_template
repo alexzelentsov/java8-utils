@@ -1,0 +1,15 @@
+package alex.z.com.github.alexzelentsov.utils.consumers;
+
+import org.junit.Test;
+
+/**
+ * Created by alexander.zelentsov on 25.07.2017.
+ */
+public class TestConsumer%N% {
+    @Test
+    public void accept() throws Exception {
+        Consumer%N%<%Integer%> consumer%N% = (%args%) -> {};
+        consumer%N%.accept(%test_params%);
+    }
+
+}

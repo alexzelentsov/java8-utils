@@ -1,0 +1,20 @@
+package alex.z.com.github.alexzelentsov.utils.functions;
+
+ import org.junit.Test;
+
+ import static org.hamcrest.core.Is.is;
+ import static org.junit.Assert.assertThat;
+
+ /**
+  * Created by alexander.zelentsov on 24.07.2017.
+  */
+ public class TestPredicate%N% {
+
+     @Test
+     public void test() {
+         Predicate%N%<%Integer%> predicate%N% = (%args%) -> true;
+         boolean result = predicate%N%.test(%test_params%);
+         assertThat(result, is(true));
+     }
+
+ }

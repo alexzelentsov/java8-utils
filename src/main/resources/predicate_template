@@ -1,0 +1,23 @@
+package alex.z.com.github.alexzelentsov.utils.predicates;
+
+/**
+ * Represents a predicate (boolean-valued function) of %N% arguments.
+ *
+ * <p>This is a <a href="package-summary.html">functional interface</a>
+ * whose functional method is {@link #test(%Objects%)}.
+ *
+%@params%
+ *
+ * Created by alexander.zelentsov on 25.07.2017.
+ */
+@FunctionalInterface
+public interface Predicate%N%<%T%> {
+        /**
+         * Evaluates this predicate on the given arguments.
+         *
+%@param args%
+         * @return {@code true} if the input arguments matches the predicate,
+         * otherwise {@code false}
+         */
+        boolean test(%T args%);
+}

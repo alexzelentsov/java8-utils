@@ -1,0 +1,22 @@
+package alex.z.com.github.alexzelentsov.utils.consumers;
+
+/**
+ * Represents an operation that accepts a %N% input arguments and returns no
+ * result.
+ *
+ * <p>This is a <a href="package-summary.html">functional interface</a>
+ * whose functional method is {@link #accept(%Objects%)}.
+ *
+%@params%
+ *
+ * Created by alexander.zelentsov on 24.07.2017.
+ */
+@FunctionalInterface
+public interface Consumer%N%<%T%> {
+        /**
+         * Performs this operation on the given arguments.
+         *
+%@param args%
+         */
+        void accept(%T args%);
+}
